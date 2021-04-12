@@ -1,0 +1,49 @@
+.table {
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* .description-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+} */
+
+.coin {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  /* align-items: center; */
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.coin-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.coin-description img {
+  height: auto;
+  width: 10%;
+  margin-right: 30px;
+}
+
+.coin-description h1 {
+  width: auto;
+}
+.coin-price-d {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.coin-price-d h1 {
+  text-align: center;
+}
