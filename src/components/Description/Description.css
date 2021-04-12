@@ -29,12 +29,13 @@
 }
 
 .coin-description img {
-  height: auto;
-  width: 10%;
+  height: 40%;
+  width: auto;
   margin-right: 30px;
 }
 
 .coin-description h1 {
+  font-size: medium;
   width: auto;
 }
 .coin-price-d {
@@ -46,4 +47,5 @@
 }
 .coin-price-d h1 {
   text-align: center;
+  font-size: medium;
 }
